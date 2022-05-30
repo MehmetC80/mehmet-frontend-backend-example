@@ -13,7 +13,7 @@ export const PageBooks = () => {
       (async () => {
         setBooks((await axios.get(url)).data);
       })();
-    }, 0);
+    }, 2000);
   }, []);
 
   return (
